@@ -32,6 +32,15 @@ main {
     display: flex;
 }
 
+a { 
+    color:#e3fc00;
+    text-decoration:none;
+}
+
+a:hover, a:focus {
+    text-decoration:underline;
+}
+
 aside {
     width: 20%;
     padding: 20px;
