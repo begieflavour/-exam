@@ -52,6 +52,17 @@ aside {
     text-align: left;
 }
 
+.filter-phone {
+    text-align: center;
+    margin: 50px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e3fc00;
+    background-color: #2B2B28;
+    text-align: left;
+    display: none;
+}
+
 .filter h2, .filter h3 {
     margin: 10px 0;
 }
@@ -68,7 +79,7 @@ aside {
 
 button.special {
     margin-top: 20px;
-    background-color: #ffff00;
+    background-color: #e3fc00;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -153,4 +164,15 @@ footer {
 .footer-info nav a {
     color: #ffff00;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 40em) and (orientation: portrait) {
+    .filter {
+        display: none;
+    }
+
+    .filter-phone{
+        display: block;
+    }
+    
 }
