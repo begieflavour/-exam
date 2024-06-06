@@ -1,0 +1,163 @@
+body {
+    background-color: #2B2B28;
+    color: #e3fc00;
+    font-family: Gabriella Heavy, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2B2B28;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #e3fc00;
+    text-decoration: none;
+    font-size: 18px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+textarea {
+    resize: none;
+
+ }
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-section h1 span {
+    display: block;
+    font-size: 48px;
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #2B2B28;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e3fc00;
+    display: inline-block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    border: 1px solid #e3fc00;
+    border-radius: 5px;
+    background-color: #2B2B28;
+    color: #e3fc00;
+}
+
+button {
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e3fc00;
+    color: #2B2B28;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: Gabriella Heavy, sans-serif;
+}
+
+button:hover {
+    background-color: #e3fc00;
+}
+
+footer {
+    background-color: #2B2B28;
+    padding: 20px;
+    text-align: center;
+    color: #e3fc00;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-family: Myriad Pro, sans-serif;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #e3fc00;
+    text-decoration: none;
+}
+
+.social-media a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.social-media a {
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    main {
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-links ul {
+        margin-bottom: 20px;
+    }
+}
