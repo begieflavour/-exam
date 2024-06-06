@@ -36,9 +36,19 @@ aside {
     width: 20%;
     padding: 20px;
 }
+.output {
+    padding-left: 10px;
+}
 
 .filter {
     position: fixed;
+    text-align: center;
+    margin: 50px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e3fc00;
+    background-color: #2B2B28;
+    text-align: left;
 }
 
 .filter h2, .filter h3 {
