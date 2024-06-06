@@ -37,6 +37,10 @@ aside {
     padding: 20px;
 }
 
+.filter {
+    position: fixed;
+}
+
 .filter h2, .filter h3 {
     margin: 10px 0;
     background-color: #2B2B28;
